@@ -12,5 +12,5 @@ def create_app(env_name):
     # cors.init_app(app)
 
     # app.register_blueprint(user_blueprint, url_prefix='/api/')
-    app.register_blueprint(temp_blueprint, url_prefix='/temp/')
+    app.register_blueprint(temp_blueprint, url_prefix='/')
     return app 
